@@ -1,9 +1,0 @@
-{
-  "observacao": "Temas de busca no PubMed, tirados do projeto de doutorado. 'q' é a busca em sintaxe PubMed (máx. 20 operadores); 'dias' é a janela de indexação.",
-  "temas": [
-    { "id": "multi", "label": "Predição multimodal", "dias": 60, "q": "polygenic[tiab] AND (neuroimaging[tiab] OR MRI[tiab] OR miRNA[tiab] OR microRNA[tiab] OR multimodal[tiab] OR multiomic[tiab] OR \"multi-omics\"[tiab]) AND (psychiatric[tiab] OR \"mental disorders\"[tiab] OR psychopathology[tiab] OR depression[tiab]) AND (prediction[tiab] OR predictive[tiab])" },
-    { "id": "mirna", "label": "EV-miRNA", "dias": 60, "q": "(\"extracellular vesicles\"[tiab] OR exosomes[tiab] OR exosomal[tiab]) AND (miRNA[tiab] OR miRNAs[tiab] OR microRNA[tiab] OR microRNAs[tiab]) AND (psychiatric[tiab] OR \"mental disorders\"[tiab] OR depression[tiab] OR depressive[tiab] OR ADHD[tiab] OR anxiety[tiab] OR schizophrenia[tiab] OR \"bipolar disorder\"[tiab])" },
-    { "id": "pgsimg", "label": "PGS × neuroimagem", "dias": 60, "q": "(\"polygenic score\"[tiab] OR \"polygenic scores\"[tiab] OR \"polygenic risk\"[tiab]) AND (\"brain structure\"[tiab] OR subcortical[tiab] OR \"cortical thickness\"[tiab] OR \"surface area\"[tiab] OR hippocampal[tiab] OR thalamus[tiab] OR FreeSurfer[tiab]) AND (children[tiab] OR adolescents[tiab] OR youth[tiab] OR adolescence[tiab] OR childhood[tiab] OR neurodevelopment[tiab])" },
-    { "id": "bhrc", "label": "Coorte BHRC", "dias": 180, "q": "(\"Brazilian High Risk Cohort\"[tiab] OR \"Brazilian High-Risk Cohort\"[tiab] OR BHRC[tiab] OR BHRCS[tiab])" }
-  ]
-}
